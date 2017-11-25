@@ -1,0 +1,269 @@
+
+
+body {
+  font-family: verdana;
+  font-size: 18px;
+  background-color: lightgray;
+  margin-left: 0;
+  margin-right: 0;
+
+}
+header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  background-color: white;
+  height: 64px;
+  top: 0px;
+}
+
+.logo img {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+}
+.logo {
+  display: inline-flex;
+  flex-grow: 1;
+  align-items: center;
+  margin-left: 1%;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 24px;
+}
+nav span {
+  display: inline-block;
+  padding: 16px 10px;
+}
+
+.container {
+  display: flex;
+  padding-top: 64px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: auto;
+}
+.img1 {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+}
+.img3 {
+  max-width: 100%;
+  height: auto;
+}
+.img4 {
+  max-width: 100%;
+  height: auto;
+}
+.left2 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: auto;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  font-size: 1.5rem
+}
+.button {
+  background-color: black;
+  color: white;
+  width: 31rem;
+  text-align: center;
+  padding: 8px 0 8px 0;
+}
+.container2 {
+  display: flex;
+  padding-top: 32px;
+  justify-content: space-between;
+}
+h2 {
+  padding: 32px 0 24px 0;
+}
+.right2 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+}
+.small-text {
+  font-size: 1rem;
+}
+.text-content1 {
+  padding-left: 10px;
+}
+.text-content {
+  padding-left: 8%
+}
+.top {
+  display: inline-flex;
+  padding-bottom: 20px;
+  padding-left: 1.7rem;
+}
+.middle {
+  display: inline-flex;
+  padding-bottom: 20px;
+}
+.bottom {
+  display: inline-flex;
+  padding-bottom: 20px;
+  padding-left: 1rem;
+}
+.learn {
+  display: flex;
+  flex-direction: column;
+}
+.learning-containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.learning {
+  display: flex;
+  flex-direction: column;
+  width: 26%;
+  height: auto;
+  margin: 32px 16px 32px 16px;
+  background-color: white;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 32px 0 0 0;
+}
+.video {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: auto;
+}
+.float-left {
+  display:inline-flex;
+  flex-grow: 1;
+}
+.float-right {
+  display: inline-flex;
+}
+.footer {
+  display: flex;
+}
+@media only screen and (max-width: 480px) {
+  .header-title,
+  .left,
+  .left2,
+  nav {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem 0 2rem
+  }
+}
+@media only screen and (max-width: 480px) {
+  .right2,
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+  @media only screen and (max-width: 480px) {
+    .button, .container2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .container {
+      display: flex;
+      background-color: lightgrey;
+      justify-content: center;
+    }
+}
+@media only screen and (max-width: 480px) {
+  .right2,
+  .top,
+  .middle,
+  .bottom,
+  .text-content {
+    display: block;
+    text-align: center;
+    padding-left: 1.7rem;
+
+  }
+}
+  @media only screen and (max-width: 480px) {
+    .image2,
+    h2,
+    .text-content1 {
+      display: block;
+      overflow: visible;
+      align-items: baseline;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .small-text {
+    width: 200px;
+  }
+  .bottom,
+  .float-right,
+  .right2 {
+    display: none;
+  }
+  video {
+    width: 175%;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .learning-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 0 8px 0;
+  }
+  .learning {
+    background-color: lightgrey;
+    width: 100%;
+    padding: 8px 0 8px 0;
+    margin: 10px;
+  }
+  .img4 {
+    display: none;
+  }
+  #h2 {
+    display: block;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: white;
+  }
+}
+@media only screen and (min-width: 481px) {
+  .campus,
+  .online,
+  .login {
+    display: none;
+  }
+}
